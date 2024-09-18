@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Task Tracker",
+  "description": "Task Tracker with ReactJS and Webpack",
+  "version": "1.0.0",
+  "icons": {
+    "16": "tasks.png",
+    "48": "tasks.png",
+    "128": "tasks.png"
+  },
+  "action": {
+    "default_title": "React Boilerplate",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["tabs", "bookmarks", "storage", "identity", "sidePanel"],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html"
+}
